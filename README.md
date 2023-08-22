@@ -8,6 +8,10 @@ Homework for Teachers2IT PostgreSQL training by Kharkiv IT Cluster.
 
 ![](movies.png)
 
-- Handwritten SQL [scripts](main.py)
+- Handwritten SQL [scripts](hw1.py)
 
 - SQL generated [scripts](movies.sql)
+
+## Homework 02
+
+- Handwritten SQL [scripts](hw2.py)
