@@ -126,7 +126,7 @@ cursor.execute("CLOSE cursor")
 cursor.execute("COMMIT WORK")
 
 # truncate tables
-cursor.execute("TRUNCATE actor_movie, movie, director, actor, person CASCADE")
+# cursor.execute("TRUNCATE actor_movie, movie, director, actor, person CASCADE")
 
 cursor.close()
 conn.close()
