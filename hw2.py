@@ -34,7 +34,6 @@ insert_director_table = """INSERT INTO director (director_id) VALUES (1),
 insert_movie_table = """INSERT INTO movie (movie_title, movie_about, movie_release_date, director_id, movie_distributor, movie_budget_usd, movie_boxoffice_usd, movie_imdb, movie_release_country) VALUES
     ('The Amazing Adventure', 'A thrilling action-packed adventure.', '2023-08-15', 1, 'Studio Films', 50000000.00, 150000000.00, 8.5, 'United States'),
     ('Mystery of the Shadows', 'A suspenseful mystery unfolding in a small town.', '2023-07-22', 2, 'CineMagic', 30000000.00, 95000000.00, 7.8, 'United Kingdom'),
-    ('Sunset Serenade', 'A heartwarming musical set in the 1950s.', '2023-05-01', 3, 'Dream Productions', 70000000.00, 180000000.00, 7.2, 'United States'),
     ('City of Dreams', 'A drama following the lives of four individuals in a bustling city.', '2023-06-30', 4, 'Urban Films', 40000000.00, 120000000.00, 6.9, 'France'),
     ('Wild Expeditions', 'An epic journey of exploration through untamed lands.', '2023-09-10', 5, 'Adventura Pictures', 60000000.00, 145000000.00, 8.0, 'Australia');"""
 
@@ -45,7 +44,6 @@ insert_actor_movie_table = """INSERT INTO actor_movie (actor_id, movie_id, actor
     (1, 2, ARRAY['Villain'], 'Antagonistic role in the movie.'),
     (3, 3, ARRAY['Lead', 'Singer'], 'Musical lead role in the film.'),
     (4, 4, ARRAY['Protagonist'], 'One of the main characters in the city drama.'),
-    (5, 5, ARRAY['Explorer'], 'Lead role in the adventure film.'),
     (1, 3, ARRAY['Dancer'], 'Featured role in the musical.'),
     (2, 3, ARRAY['Supporting'], 'Supporting role in the musical.');"""
 
